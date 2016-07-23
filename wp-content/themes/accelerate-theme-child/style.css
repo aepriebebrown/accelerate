@@ -46,3 +46,7 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.new-style {
+    font-size: 12px; /*Remove this whole style*/
+}
