@@ -71,8 +71,13 @@ article.case-study h6 {
 
 aside.case-study-sidebar {
     float:left;
+    clear: left;
     width: 314px;
     margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+    font-weight: normal;
 }
 
 div.case-study-images {
@@ -110,3 +115,14 @@ div.case-study-images img {
     font-size: 18px;
     font-weight: normal;
 }
+
+/*Archive Case Studies Styles
+
+.case-study-sidebar {
+    clear: left;
+}
+
+.case-study-images {
+    float: right;
+}
+*/
