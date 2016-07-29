@@ -17,14 +17,14 @@
 			<div class="site-info">
 				<div class="site-description">
 				<p><?php bloginfo('description'); ?></p>
-				<p>&copy; <?php bloginfo('title'); ?>, LLC
+				<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('title'); ?>, LLC
 				</div>
-				
+
 			<nav class="social-media-navigation" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
 			</nav>
 
-				
+
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->

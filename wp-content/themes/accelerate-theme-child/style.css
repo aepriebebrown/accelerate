@@ -24,7 +24,7 @@
 
 #masthead nav ul li {
     float:left;
-    margin: -20px 10px 0 0;
+    margin: -25px 10px 0 0;
 }
 
 .blog-post {
@@ -83,4 +83,30 @@ div.case-study-images {
 div.case-study-images img {
     margin-bottom: 50px;
     border:1px solid #dddddd;
+}
+
+/*Front Page Case Study Styles*/
+.featured-work {
+    padding-bottom: 30%;
+}
+
+.featured-work h4 {
+    text-transform:uppercase;
+    text-align:center;
+    padding-bottom: 50px;
+}
+
+.homepage-featured-work {
+    list-style: none;
+}
+
+.individual-featured-work {
+    float: left;
+    padding: 6px;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
 }
