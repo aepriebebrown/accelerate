@@ -115,3 +115,33 @@ div.case-study-images img {
     font-size: 18px;
     font-weight: normal;
 }
+
+/*Contact Us Styles*/
+#ninja_forms_field_1_div_wrap{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#ninja_forms_field_2_div_wrap{
+    width: 48%;
+    float: right;
+}
+
+.ninja-forms-form label {
+    font-size: .85em;
+}
+
+#ninja_forms_field_4{
+    background: #45ac9d;
+    color: #fff;
+    width: 175px;
+    padding: 10px;
+    font-size: .85em;
+    float: right;
+}
+
+#content {
+    width: 75%;
+    margin: auto;
+}
