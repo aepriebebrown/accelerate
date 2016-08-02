@@ -145,3 +145,12 @@ div.case-study-images img {
     width: 75%;
     margin: auto;
 }
+
+/*About Styles*/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 240px;
+    margin: 0 0 80px;
+    padding: 50px 0;
+}
