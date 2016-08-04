@@ -117,6 +117,18 @@ div.case-study-images img {
 }
 
 /*Contact Us Styles*/
+
+#ninja_forms_form_1_wrap {
+  width: 600px;
+  margin: auto;
+}
+
+#ninja_forms_form_1_wrap, p, h2{
+    width: 75%;
+    margin: auto;
+    padding-top: 25px;
+}
+
 #ninja_forms_field_1_div_wrap{
     width: 48%;
     margin-right: 2%;
@@ -141,16 +153,25 @@ div.case-study-images img {
     float: right;
 }
 
-#content {
-    width: 75%;
-    margin: auto;
-}
-
 /*About Styles*/
 
-.about-page {
+.about-page-header {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 240px;
     margin: 0 0 80px;
     padding: 50px 0;
+}
+
+.about-featured-services img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+    float: right;
+}
+
+.about-page-header img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+    float: left;
 }
